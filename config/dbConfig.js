@@ -2,7 +2,7 @@ module.exports = {
     HOST: 'localhost',
     USER: 'root',
     PASSWORD: '5S182vt2',
-    DB: 'node_tutorial',
+    DB: 'nodejs',
     dialect: 'mysql',
 
     pool: {
