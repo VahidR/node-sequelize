@@ -36,3 +36,5 @@ db.reviews = require('./reviewModel.js')(sequelize, DataTypes);
 db.sequelize.sync({ force: false }).then(() => {
     console.log('Yes, re-sync done...');
 });
+
+module.exports = db;
