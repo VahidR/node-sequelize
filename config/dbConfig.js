@@ -1,7 +1,7 @@
 module.exports = {
     HOST: 'localhost',
-    USER: 'root',
-    PASSWORD: '5S182vt2',
+    USER: process.env.MYSQL_USERNAME,
+    PASSWORD: process.env.MYSQL_PASSWORD,
     DB: 'nodejs',
     dialect: 'mysql',
 
